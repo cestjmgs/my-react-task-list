@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+body {
+    background-color: #d896ff;
+    display: grid;
+}
+
+/* FIRST HEADER */
+a {
+    text-decoration: none;
+    color:#660066;
+  }
+.site-header { 
+    /*background-color: #9ADE7B;*/
+    border-bottom: 1px solid #800080;
+    padding: .5em 5em;
+    display: flex;
+    justify-content: space-between;   
+  }
+  
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: .6em 0;
+    display: inline-block;
+    font-weight: bolder;
+    color: #006414;
+  }
+  
+  
+  .site-navigation ul, 
+  .site-navigation li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+
+/* HEADER */
+
+.taskForm {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    background-color: #9ADE7B;
+    border-radius: 5px;
+}
+.taskFormBox {
+    width: 100%;
+    max-width: 400px;
+    background-color: #9ADE7B;
+    color: #660066;
+    display: grid;
+    margin: auto;
+    padding: 2rem;   
+}
+
+.taskTitle {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.taskFormBoxTwo {
+   display: grid;
+   grid-template-columns: 1fr 1fr auto;
+}
+.taskInputTitle, .taskInputDescription {
+    background-color: #C1F2B0;
+    border: 2px solid #660066;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #660066;
+    box-shadow: -8px 7px 7px -5px rgba(0,0,0,0.75);
+    margin-left: 1rem;
+}
+
+.taskAddButton {
+    background: #800080;
+    color: #fff;
+    border: none;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    padding: 0.55rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width:fit-content;
+}
+
+/* TASK */ 
+.taskBox {
+    background-color: #9ADE7B;
+    color:#800080;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 3fr 6fr 1fr 1fr;
+    align-items: center;
+}
+.taskBoxOne {
+    background-color: none;
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+.taskBoxTwo {
+    background-color: #d896ff;
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+.taskBoxButtons {
+    display: flex;
+}
+
+.taskBoxInputTitle  {
+    background-color: none;
+    border: 2px solid #660066;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    color: black;
+    box-shadow: -8px 7px 7px -5px rgba(0,0,0,0.75);
+    margin-left: 1rem;
+}
+.taskBoxInputDescription {
+    background-color: none;
+    border: 2px solid #660066;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    color: black;
+    box-shadow: -8px 7px 7px -5px rgba(0,0,0,0.75);
+    margin-left: 1rem;
+}
+
+.taskButton {
+    background: #800080;
+    color: #fff;
+    border: none;
+    margin-left: 0.9rem;
+    padding: 0.55rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width:fit-content;
+}
